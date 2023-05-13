@@ -10,7 +10,6 @@ class AuthController extends GetxController {
   Rx<FormType> formType = FormType.menu.obs;
 
   Future<void> login(String username, String password) async {
-    //if username and password exist in hive box
     if (posyanduBox.containsKey(username) &&
         posyanduBox.get(username) == password) {
       profile = LoginModel(

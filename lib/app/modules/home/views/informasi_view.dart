@@ -10,7 +10,8 @@ class InformasiView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+        color: Colors.blue[50],
+        padding: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -23,6 +24,9 @@ class InformasiView extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -57,8 +61,12 @@ class InformasiView extends StatelessWidget {
                 ],
               ),
             ),
+
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -99,8 +107,12 @@ class InformasiView extends StatelessWidget {
               ),
             ),
             //Separator
+
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -135,9 +147,13 @@ class InformasiView extends StatelessWidget {
                 ],
               ),
             ),
+
             //Separator
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -173,8 +189,12 @@ class InformasiView extends StatelessWidget {
               ),
             ),
             //Separator
+
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
@@ -210,8 +230,12 @@ class InformasiView extends StatelessWidget {
               ),
             ),
             //Separator
+
             Container(
               margin: EdgeInsets.symmetric(vertical: 12, horizontal: 12),
+              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20), color: Colors.white),
               width: double.infinity,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
